@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import './Destinations.scss';
 import IntroSection from '../../components/IntroSection';
-import Cards from '../Cards';
+//import Cards from '../Cards';
 import Video from '../../videos/destinations.mp4';
 import picAmerica from '../../images/intro-america.jpg';
 import picCarib from '../../images/intro-carib.jpg';
