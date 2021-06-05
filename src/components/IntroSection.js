@@ -1,7 +1,14 @@
+import {useEffect} from 'react';
 import {Button} from './Button';
 import './IntroSection.scss';
 
 function IntroSection({video, heading, contents, button, path}) {
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return(
         <div className='intro-container'>
             <video src={video} autoPlay loop muted></video>

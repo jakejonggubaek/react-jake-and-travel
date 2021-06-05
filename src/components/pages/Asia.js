@@ -15,44 +15,62 @@ export default function Asia() {
     const image = [
         {
             src: ImageBali,
+            title: 'Best of Bali',
             text: 'Find your zen in Bali.',
             label: 'relaxing',
-            path: '/asia'
+            path: '/asia',
+            days: '8 days',
+            price: 1999
         },
 
         {
             src: ImageChina,
+            title: 'Adventure in Southern China',
             text: 'Discover the Rich Flavors of Nanning, China.',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '9 days',
+            price: 1499
         },
 
         {
             src: ImageIndia,
+            title: 'Best of India',
             text: 'Memories of India will blaze bright long after you have left its shores',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '9 days',
+            price: 1899
         },
 
         {
             src: ImageJapan,
+            title: 'Mt Fuji, and Tokyo',
             text: 'A place where ancient traditions are fused with modern life.',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '9 days',
+            price: 1999
         },
 
         {
             src: ImageKorea,
+            title: 'Best of Korea',
             text: 'Witness history and neo-futurism all in one place.',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '7 days',
+            price: 1599
         },
 
         {
             src: ImageThai,
+            title: 'Thailand adventure',
             text: 'Visit glittering temples and tropical beaches',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '11 days',
+            price: 1699
         },
     ];
 

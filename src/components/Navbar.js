@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import { HashLink as Link} from 'react-router-hash-link';
-import logo from '../images/logo.png';
+import logo from '../images/logo-main.png';
 import './Navbar.scss';
 import {Button} from './Button';
 
@@ -63,7 +63,7 @@ function Navbar() {
                             <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>About us</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='#subscribe' className='nav-links' onClick={closeMobileMenu}>Subscribe</Link>
+                            <Link to='/#subscribe' className='nav-links' onClick={closeMobileMenu}>Subscribe</Link>
                         </li>
                         <li>
                             <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>

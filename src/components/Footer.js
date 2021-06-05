@@ -23,14 +23,9 @@ function Footer() {
             <section className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Home</h2>
-                        <Link to="/">Jake and Travel</Link>
-                        <Link to="/">Destinations for now</Link>
-                    </div>
-                    <div className="footer-link-items">
                         <h2>Destinations</h2>
                         <Link to="/destinations">Our Destinations</Link>
-                        <Link to="/america">North & South America</Link>
+                        <Link to="/americas">North & South America</Link>
                         <Link to="/africa">Africa</Link>
                         <Link to="/asia">Asia</Link>
                         <Link to="/caribbean">Caribbean</Link>
@@ -40,6 +35,18 @@ function Footer() {
                         <Link to="/about-us">About Us</Link>
                         <Link to="/about-us">Our Value</Link>
                         <Link to="/about-us">Careers</Link>
+                    </div>
+                </div>
+                <div className="footer-link-wrapper">
+                    <div className="footer-link-items">
+                        <h2>Home</h2>
+                        <Link to="/">Jake and Travel</Link>
+                        <Link to="/">Destinations for now</Link>
+                    </div>
+                    <div className="footer-link-items">
+                        <h2>Sign Up</h2>
+                        <Link to="/sign-up">Sign Up</Link>
+                        <Link to="/sign-up">Subscribe</Link>
                     </div>
                 </div>
             </section>

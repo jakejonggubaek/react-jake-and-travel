@@ -18,44 +18,62 @@ function  Home() {
     const image = [
         {
             src: ImageBali,
+            title: 'Best of Bali',
             text: 'Find your zen in Bali.',
             label: 'relaxing',
-            path: '/asia'
+            path: '/asia',
+            days: '8 days',
+            price: 1999
         }, 
 
         {
             src: ImageBelize,
+            title: 'Best of Belize',
             text: 'Explore the flavors and melodies of Belize.',
             label: 'adventure',
-            path: '/america'
+            path: '/america',
+            days: '6 days',
+            price: 1599
         },
 
         {
             src: ImageCaicos,
+            title: 'Honeymoon in Turks & Caicos',
             text: 'Walk on the most world-famous stretch of coast.',
             label: 'luxury',
-            path: '/caribbean'
+            path: '/caribbean',
+            days: '7 days',
+            price: 3599
         },
 
         {
             src: ImageEgypt,
+            title: 'Hightlight of Egypt',
             text: 'The mighty Nile and magnificent monuments.',
             label: 'culture',
-            path: '/africa'
+            path: '/africa',
+            days: '9 days',
+            price: 2599
         },
 
         {
             src: ImageKorea,
+            title: 'Best of Korea',
             text: 'Witness history and neo-futurism all in one place.',
             label: 'culture',
-            path: '/asia'
+            path: '/asia',
+            days: '9 days',
+            price: 1599
         },
 
         {
             src: ImageKenya,
+            title: 'Sarari Experience in Kenya',
             text: 'Vast savannas peppered with immense herds of wildlife.',
             label: 'adventure',
-            path: '/africa'
+            path: '/africa',
+            days: '11 days',
+            price: 2599
         },
     ];
 

@@ -1,3 +1,5 @@
+@import './mixin';
+
 :root {
     --primary: #fff;
 }
@@ -26,11 +28,23 @@
 .btn--medium {
     padding: 8px 20px;
     font-size: 20px;
+
+    @include lapTopMQ {
+        margin-right: 5px;
+        padding: 6px 8px;
+        font-size: 15px;
+    }
 }
 
 .btn--large {
     padding: 12px 26px;
     font-size: 20px;
+
+    @include lapTopMQ {
+        margin-right: 5px;
+        padding: 10px 18px;
+        font-size: 15px;
+    }
 }
 
 .btn--medium:hover, .btn--large:hover {

@@ -1,11 +1,21 @@
+@import './mixin'; 
+
 .cards {
   padding: 4rem;
   padding-top: 120px;
   background: #fff;
+
+  @include mobileMQ {
+      padding: 1rem;
+  }
 }
 
 h1 {
   text-align: center;
+}
+
+h4 {
+    margin-bottom: 10px;
 }
 
 .cards__container {
@@ -23,7 +33,12 @@ h1 {
 }
 
 .cards__items {
+  display: flex;
   margin-bottom: 24px;
+
+  @include lapTopMQ {
+      flex-direction: column;
+  }
 }
 
 .cards__item {
@@ -31,6 +46,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 .cards__item__link {
@@ -50,6 +66,29 @@ h1 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
+
+  .cards__item__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5px;
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    height: 30px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 2px;
+    color: gray;
+
+    .cards__item__price {
+        color: black;
+
+        span {
+            font-size: 12px;
+        }
+    }
+  }
 }
 
 .fade-img {
@@ -91,7 +130,7 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 15px;
 }
 
 .cards__item__text {
@@ -107,14 +146,8 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .cards__item {
-    margin-bottom: 2rem;
+    
   }
 }

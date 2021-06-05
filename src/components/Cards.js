@@ -6,7 +6,7 @@ function  Card({info}) {
 
     return(
         <div className='cards' id='cards'>
-            <h1>CHECK OUT THIS EPIC DESTINATIONS</h1>
+            <h1>CHECK OUT THESE EPIC DESTINATIONS</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -14,7 +14,7 @@ function  Card({info}) {
                         {
                             info.slice(0,3).map((item, index)=>{
                                 return(
-                                    <CardItem src={item.src} text={item.text} label={item.label} path={item.path} key={index}/>
+                                    <CardItem src={item.src} title={item.title} text={item.text} label={item.label} path={item.path} key={index} days={item.days} price={item.price}/>
                                 )
                             })
                         }
@@ -23,7 +23,7 @@ function  Card({info}) {
                         {
                             info.slice(3, 6).map((item, index) => {
                                 return (
-                                    <CardItem src={item.src} text={item.text} label={item.label} path={item.path} key={index} />
+                                    <CardItem src={item.src} title={item.title} text={item.text} label={item.label} path={item.path} key={index} days={item.days} price={item.price} />
                                 )
                             })
                         }

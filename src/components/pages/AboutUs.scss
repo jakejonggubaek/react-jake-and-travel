@@ -1,3 +1,5 @@
+@import '../mixin';
+
 .about-details {
     display: flex;
     flex-direction: column;
@@ -8,9 +10,17 @@
     padding-top: 100px;
     background-color: #fff;
 
+    @include mobileMQ {
+        padding-top: 70px;
+    }
+
     h2 {
         font-size: 30px;
         margin-bottom: 50px;
+
+        @include mobileMQ {
+            font-size: 24px;
+        }
     }
 
     .wrapper {
@@ -26,7 +36,12 @@
         }
 
         h3 {
+            text-align: center;
             font-size: 25px;
+
+            @include mobileMQ {
+                font-size: 18px;
+            }
         }
 
         p {
@@ -57,26 +72,51 @@
     .grid-container-1 {
         grid-column: 3 / 6;
         grid-row: 1 / 5;
+
+        @include mobileMQ {
+            grid-column: 2 / 6;
+            grid-row: 1 / 5;
+        }
     }
 
     .grid-container-2 {
         grid-column: 3 / 6;
         grid-row: 5 / 6;
+
+        @include mobileMQ {
+            grid-column: 2 / 6;
+            grid-row: 5 / 6;
+        }
     }
 
     .grid-container-3 {
         grid-column: 3 / 6;
         grid-row: 6 / 11;
+
+        @include mobileMQ {
+            grid-column: 2 / 6;
+            grid-row: 6 / 11;
+        }
     }
 
     .grid-container-4 {
         grid-column: 3 / 6;
         grid-row: 11 / 12;
+
+        @include mobileMQ {
+            grid-column: 2 / 6;
+            grid-row: 11 / 12;
+        }
     }
 
     .grid-container-5 {
         grid-column: 3 / 6;
         grid-row: 12 / 16;
+
+        @include mobileMQ {
+            grid-column: 2 / 6;
+            grid-row: 12 / 16;
+        }
     }
 
     .grid-container-6 {
@@ -88,6 +128,14 @@
         flex-direction: column;
         grid-column: 6 / 9;
         grid-row: 7 / 10;
+
+        h2 {
+            text-align: center;
+
+            @include mobileMQ {
+                display: none;
+            }
+        }
     }
 
     .grid-container-8 {
@@ -98,25 +146,50 @@
     .grid-container-9 {
         grid-column: 9 / 12;
         grid-row: 1 / 5;
+
+        @include mobileMQ {
+            grid-column: 9 / 13;
+            grid-row: 1 / 5;
+        }
     }
 
     .grid-container-10 {
         grid-column: 9 / 12;
         grid-row: 5 / 6;
+
+        @include mobileMQ {
+            grid-column: 9 / 13;
+            grid-row: 5 / 6;
+        }
     }
 
     .grid-container-11 {
         grid-column: 9 / 12;
         grid-row: 6 / 11;
+
+        @include mobileMQ {
+            grid-column: 9 / 13;
+            grid-row: 6 / 11;
+        }
     }
 
     .grid-container-12 {
         grid-column: 9 / 12;
         grid-row: 11 / 12;
+
+        @include mobileMQ {
+            grid-column: 9 / 13;
+            grid-row: 11 / 12;
+        }
     }
 
     .grid-container-13 {
         grid-column: 9 / 12;
         grid-row: 12 / 16;
+
+        @include mobileMQ {
+            grid-column: 9 / 13;
+            grid-row: 12 / 16;
+        }
     }
 }

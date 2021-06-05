@@ -1,3 +1,9 @@
+@mixin lapTopMQ {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
 @mixin tabletMQ {
   @media (max-width: 960px) {
     @content;
