@@ -51,6 +51,7 @@ function Navbar() {
                             <div className='nav-links' >
                                 <Link to='/destinations' onClick={closeMobileMenu} className="nav-links dropbtn">Destinations</Link>
                                 <div className="dropdown-content">
+                                    <Link to='/destinations' className='dropdown-submenu'>Destinations</Link>
                                     <Link to='/america' className='dropdown-submenu'>Americas</Link>
                                     <Link to='/africa' className='dropdown-submenu'>Africa</Link>
                                     <Link to='/asia' className='dropdown-submenu'>Asia</Link>
