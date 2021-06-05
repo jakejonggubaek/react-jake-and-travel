@@ -61,7 +61,7 @@ function  Home() {
 
     return(
         <div id='home'>
-            <IntroSection video={Video} heading='ADVENTURE AWAIT' contents='What are you waiting for?' button='GET STARTED' path='#cards'/>
+            <IntroSection video={Video} heading='ADVENTURE AWAIT' contents='We travel not to escape life but for life not to escape us.' button='GET STARTED' path='#cards'/>
             <Cards info={image}/>
         </div>
     )

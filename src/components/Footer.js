@@ -23,34 +23,23 @@ function Footer() {
             <section className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
+                        <h2>Home</h2>
+                        <Link to="/">Jake and Travel</Link>
+                        <Link to="/">Destinations for now</Link>
+                    </div>
+                    <div className="footer-link-items">
+                        <h2>Destinations</h2>
+                        <Link to="/destinations">Our Destinations</Link>
+                        <Link to="/america">North & South America</Link>
+                        <Link to="/africa">Africa</Link>
+                        <Link to="/asia">Asia</Link>
+                        <Link to="/caribbean">Caribbean</Link>
+                    </div>
+                    <div className="footer-link-items">
                         <h2>About Us</h2>
-                        <Link to="/sign-up">How it works</Link>
-                        <Link to="/testimonial">Testimonials</Link>
-                        <Link to="/testimonial">Careers</Link>
-                        <Link to="/testimonial">Customer Service</Link>
-                    </div>
-                    <div className="footer-link-items">
-                        <h2>About Us2</h2>
-                        <Link to="/sign-up">How it works</Link>
-                        <Link to="/testimonial">Testimonials</Link>
-                        <Link to="/testimonial">Careers</Link>
-                        <Link to="/testimonial">Customer Service</Link>
-                    </div>
-                </div>
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>About Us3</h2>
-                        <Link to="/sign-up">How it works</Link>
-                        <Link to="/testimonial">Testimonials</Link>
-                        <Link to="/testimonial">Careers</Link>
-                        <Link to="/testimonial">Customer Service</Link>
-                    </div>
-                    <div className="footer-link-items">
-                        <h2>About Us4</h2>
-                        <Link to="/sign-up">How it works</Link>
-                        <Link to="/testimonial">Testimonials</Link>
-                        <Link to="/testimonial">Careers</Link>
-                        <Link to="/testimonial">Customer Service</Link>
+                        <Link to="/about-us">About Us</Link>
+                        <Link to="/about-us">Our Value</Link>
+                        <Link to="/about-us">Careers</Link>
                     </div>
                 </div>
             </section>
