@@ -60,6 +60,10 @@
             right: 0;
         }
 
+        &:focus > .grid-container-desc {
+            right: 0;
+        }
+
     }
 
     .grid-container-1 {
@@ -131,7 +135,6 @@
         right: -100%;
         background-color: black;
         color: white;
-        transition: right 1s;
-        
+        transition: right 0.75s;
     }  
 }

@@ -57,18 +57,26 @@ function Footer() {
                             <img src={Logo} alt="" />
                         </Link>
                     </div>
-                    <small className="website-rights">Jake and Travel 2021</small>
+                    <small className="website-rights">Jake and Travel 2021&copy;</small>
                     <div className="social-icons">
-                        <Link className="social-icon-link facebook" to='/'
+                        <a className="social-icon-link facebook" href='https://www.facebook.com/profile.php?id=100010067990533'
                             target='_blank'
+                            rel="noreferrer"
                             aria-label='Facebook'>
                             Facebook
-                        </Link>
-                        <Link className="social-icon-link linked-in" to='/'
+                        </a>
+                        <a className="social-icon-link linked-in" href='https://www.linkedin.com/in/jakejonggubaek/'
                             target='_blank'
+                            rel="noreferrer"
                             aria-label='LinkedIn'>
                             LinkedIn
-                        </Link>
+                        </a>
+                        <a className="social-icon-link twitter" href='https://twitter.com/BaekJonggu'
+                            target='_blank'
+                            rel="noreferrer"
+                            aria-label='twitter'>
+                            Twitter
+                        </a>
                     </div>
                 </div>
             </section>

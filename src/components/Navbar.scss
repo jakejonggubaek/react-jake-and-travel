@@ -177,6 +177,10 @@
     .dropbtn {
         padding: 16px;
         border: none;
+
+        @include tabletMQ {
+            padding: 0;
+        }
     }
 
     /* Dropdown Content (Hidden by Default) */
@@ -203,7 +207,15 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+
+    @include tabletMQ {
+        display: none;
+    }
+}
